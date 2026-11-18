@@ -98,13 +98,13 @@ required for this workshop.
 2. In your fork, use **Code > Codespaces > Create codespace**. Your account
    needs permission and available quota to create a Codespace.
 3. Wait for development-container setup to finish. It supplies JDK 21,
-   Maven 3.9, the .NET SDK 10.0, Node.js 22 with npm, Python, uv, and
+   Maven 3.9, the .NET SDK 10.0, Node.js 22 with npm,    Python with pip, and
    Docker-in-Docker with Docker Compose v2.
 4. Confirm that Copilot Chat responds, then follow the
    [setup exercise](docs/01_setup_development_environment/01_setup_development_environment.md).
 
 Container creation also installs the Specify CLI (Spec Kit `v1.2.6`) with
-`uv` and GitHub Copilot CLI with npm; it does **not** run `specify init`.
+`pip` and GitHub Copilot CLI with npm; it does **not** run `specify init`.
 For an existing Codespace, run **Codespaces: Rebuild Container** to pick up
 the configured SDK, extensions, and CLI. Verify with `copilot --version`, then
 run `copilot` and use `/login` if prompted. Copilot CLI requires an active
@@ -124,7 +124,7 @@ the exercises:
 - For the selected backend, either Java Development Kit (JDK) 21 and Maven
   3.9, or the .NET 10 SDK (10.0, not just the runtime).
 - Node.js 22 and npm.
-- Python 3 and [uv](https://docs.astral.sh/uv/).
+- Python 3 and [pip](https://pip.pypa.io/en/stable/).
 - GitHub Copilot access for its exercises, or another compatible AI coding
   assistant where the exercise permits one.
 - Docker with Docker Compose for the PostgreSQL exercise. Attendees create
@@ -141,7 +141,7 @@ for platform-specific installation and verification, then
 [check Copilot access](docs/01_setup_development_environment/01_03.md).
 
 In [Exercise 03](docs/03_spec_kit_fundamentals/03_spec_kit_fundamentals.md),
-install the pinned Specify CLI with `uv` if needed and initialize Spec Kit in
+install the pinned Specify CLI with `pip` if needed and initialize Spec Kit in
 the working copy. Do not assume generated specifications or agent instructions
 already exist.
 

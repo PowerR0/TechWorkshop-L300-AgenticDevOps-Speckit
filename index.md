@@ -28,7 +28,7 @@ The following Java/Spring Boot diagram is an illustration of the longer-term arc
 
 ## Prerequisites
 
-Bring a development environment where you can use VS Code and GitHub Copilot. For local work, install the shared tools (Git, Node.js 22 with npm, Python 3, uv, and Docker with Compose) and the selected backend's toolchain: JDK 21 with Maven 3.9 for Java, or the .NET 10 SDK (10.0) for .NET. The development container supplies both backend toolchains; rebuild an existing container to pick up updates. The first exercise covers installation and access checks.
+Bring a development environment where you can use VS Code and GitHub Copilot. For local work, install the shared tools (Git, Node.js 22 with npm, Python 3 with pip, and Docker with Compose) and the selected backend's toolchain: JDK 21 with Maven 3.9 for Java, or the .NET 10 SDK (10.0) for .NET. The development container supplies both backend toolchains; rebuild an existing container to pick up updates. The first exercise covers installation and access checks.
 
 ## Exercises
 
