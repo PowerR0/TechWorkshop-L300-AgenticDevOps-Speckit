@@ -41,12 +41,12 @@ After you complete this exercise, you will be able to:
 
 | Environment | What to prepare |
 |---|---|
-| **Local development** | Both paths need Git, Visual Studio Code, Node.js 22 with npm, Python 3.11 or later, uv, and a Docker runtime with Docker Compose for PostgreSQL. Install JDK 21 and Maven 3.9 only for Java, or the .NET 10 SDK only for .NET. |
-| **GitHub Codespaces** | Create a Codespace and wait for development-container setup to finish. It supplies JDK 21, Maven 3.9, the .NET 10 SDK, Node.js 22, Python, uv, Docker-in-Docker with Compose v2, and the workshop VS Code extensions. |
+| **Local development** | Install Git, Visual Studio Code 1.145 or later, Python 3.14 with pip, the Microsoft Visual C++ v14 Redistributable (Windows only), Node.js 22 with npm 11.19, and a supported browser. GitHub Copilot app and Copilot CLI are optional. |
+| **GitHub Codespaces** | Create a Codespace and wait for development-container setup to finish. It supplies the common tools and the workshop VS Code extensions. |
 
-The development container also installs the **Specify CLI (Spec Kit `v1.2.6`)** automatically, but does **not** initialize Spec Kit in the repository. Local CLI installation and workspace initialization are covered in [Exercise 03: Spec Kit fundamentals]({% link docs/03_spec_kit_fundamentals/03_spec_kit_fundamentals.md %}).
+The Specify CLI (Spec Kit `v1.2.6`) is installed with pip in [Task 02]({% link docs/01_setup_development_environment/01_02.md %}) for local development, and automatically in the development container. Neither initializes Spec Kit in the repository; workspace initialization is covered in [Exercise 03: Spec Kit fundamentals]({% link docs/03_spec_kit_fundamentals/03_spec_kit_fundamentals.md %}).
 
-Follow the [Java prerequisite checks]({% link docs/01_setup_development_environment/01_02.md %}#java-prerequisites) or the [.NET prerequisite checks]({% link docs/01_setup_development_environment/01_02.md %}#dotnet-prerequisites) for your chosen backend, plus the shared checks. Both paths use backend port **8080** in exercise 04; the .NET startup instructions explicitly select that port.
+Use the software table in [Task 02]({% link docs/01_setup_development_environment/01_02.md %}) to install and validate each tool.
 
 ## Tasks
 
@@ -59,9 +59,11 @@ For the illustrated cloud setup guide, follow [Exercise 01 Alternative: Use GitH
 ## Completion checklist
 
 - Your workshop copy is open in VS Code or a fully initialized Codespace.
-- For Java, Java and the Java compiler report version 21 and Maven reports 3.9; for .NET, `dotnet --list-sdks` includes a 10.0 SDK and `dotnet --info` is available.
-- Node.js reports 22; npm, Python 3.11 or later, and uv are available for either path.
-- Docker and Docker Compose are available for the later PostgreSQL exercise.
+- `git --version` and `code --version` succeed.
+- Python reports 3.14 and pip is available; on Windows, the Visual C++ v14 Redistributable is installed.
+- Node.js reports 22 and npm reports 11.19.
+- `specify version` succeeds.
+- A supported browser can reach GitHub. Copilot CLI and the Copilot app are optional.
 - Copilot Chat responds to a test message, and the **Plan** and **Agent** options are available for the next exercise.
 - Any forwarded application ports remain **private**.
 
