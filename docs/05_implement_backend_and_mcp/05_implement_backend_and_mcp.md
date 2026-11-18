@@ -19,6 +19,6 @@ Run each Spec Kit skill separately in Copilot chat and review its result before 
 ## Objectives
 
 - Specify the MCP capabilities and clarify which read and write operations are allowed.
-- Plan a compatible Java Spring Boot MCP integration and choose a local transport.
+- Plan a compatible Java Spring Boot or .NET 10 MCP integration and choose a local transport.
 - Implement MCP tools using the existing banking services without duplicating business rules.
 - Verify tool discovery, invocation, data consistency, and unchanged REST behavior.
