@@ -39,10 +39,10 @@ may look different while meeting the exercise's acceptance criteria.
 
 ## Exercise flow
 
-1. [Explore Copilot and prepare the game context](02_01.md).
-2. [Create and review a plan in Plan mode](02_02.md).
-3. [Build the approved plan in Agent mode](02_03.md).
-4. [Play, review, and refine the result](02_04.md).
+1. [Explore Copilot and prepare the game context](02_01.html).
+2. [Create and review a plan in Plan mode](02_02.html).
+3. [Build the approved plan in Agent mode](02_03.html).
+4. [Play, review, and refine the result](02_04.html).
 
 ## Objectives
 
