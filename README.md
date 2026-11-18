@@ -138,7 +138,7 @@ installed, even if other SDK versions are also listed.
 Fork the repository, clone **your fork**, and open the working copy in
 VS Code. Follow the [prerequisite installation guide](docs/01_setup_development_environment/01_02.md)
 for platform-specific installation and verification, then
-[check Copilot access](docs/01_setup_development_environment/01_03.md).
+[check Copilot access](docs/01_setup_development_environment/01_04.md).
 
 In [Exercise 03](docs/03_spec_kit_fundamentals/03_spec_kit_fundamentals.md),
 install the pinned Specify CLI with `pip` if needed and initialize Spec Kit in

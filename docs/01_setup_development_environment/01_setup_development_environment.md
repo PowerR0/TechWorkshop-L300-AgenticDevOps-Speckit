@@ -52,7 +52,8 @@ Use the software table in [Task 02]({% link docs/01_setup_development_environmen
 
 1. [Fork and clone the repository]({% link docs/01_setup_development_environment/01_01.md %}) - prepare your own copy, then clone it locally or create a Codespace. Use your fork's URL when working in your own copy.
 2. [Install prerequisite software]({% link docs/01_setup_development_environment/01_02.md %}) - install the local tools or verify the tools already provided by Codespaces.
-3. [Check GitHub Copilot access]({% link docs/01_setup_development_environment/01_03.md %}) - select the correct GitHub account and send a test message in Copilot Chat.
+3. [Configure proxy and package registries]({% link docs/01_setup_development_environment/01_03.md %}) - set HTTP proxy variables and point pip, npm, Maven (Java), and NuGet (.NET) to your internal registry, if your network requires it.
+4. [Check GitHub Copilot access]({% link docs/01_setup_development_environment/01_04.md %}) - select the correct GitHub account and send a test message in Copilot Chat.
 
 For the illustrated cloud setup guide, follow [Exercise 01 Alternative: Use GitHub Codespaces]({% link docs/01_alternative_github_codespaces/01_alternative_github_codespaces.md %}).
 
