@@ -78,8 +78,8 @@
   }
 
   &__grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 0.75rem;
   }
 
@@ -92,6 +92,8 @@
   }
 
   input {
+    width: 100%;
+    box-sizing: border-box;
     padding: 0.4rem 0.5rem;
     border: 1px solid $border-color;
     border-radius: 4px;

@@ -1,15 +1,15 @@
-<form class="workshop-vars" data-workshop-vars markdown="0" autocomplete="off">
-  <p class="workshop-vars__title"><strong>Environment values</strong> - your instructor provides these on the training day. The commands below update as you type and are saved in this browser.</p>
-  <div class="workshop-vars__grid">
-    <label>Proxy host
-      <input type="text" name="PROXY_HOST" placeholder="proxy.example.com" spellcheck="false">
+<form class="workshop-vars" data-workshop-vars markdown="0" autocomplete="off" style="margin:1rem 0;padding:0.75rem 1rem;border:1px solid #ccc;border-radius:4px;">
+  <p class="workshop-vars__title" style="margin:0 0 0.5rem;"><strong>Environment values</strong> - your instructor provides these on the training day. The commands below update as you type and are saved in this browser.</p>
+  <div class="workshop-vars__grid" style="display:flex;flex-direction:column;gap:0.75rem;">
+    <label style="display:flex;flex-direction:column;gap:0.25rem;font-weight:600;">Proxy host
+      <input type="text" name="PROXY_HOST" placeholder="proxy.example.com" spellcheck="false" style="width:100%;box-sizing:border-box;padding:0.4rem 0.5rem;font-weight:400;">
     </label>
-    <label>Proxy port
-      <input type="text" name="PROXY_PORT" placeholder="8080" inputmode="numeric" spellcheck="false">
+    <label style="display:flex;flex-direction:column;gap:0.25rem;font-weight:600;">Proxy port
+      <input type="text" name="PROXY_PORT" placeholder="8080" inputmode="numeric" spellcheck="false" style="width:100%;box-sizing:border-box;padding:0.4rem 0.5rem;font-weight:400;">
     </label>
-    <label>Artifactory URL
-      <input type="text" name="ARTIFACTORY_URL" placeholder="https://artifactory.example.com/artifactory" spellcheck="false">
+    <label style="display:flex;flex-direction:column;gap:0.25rem;font-weight:600;">Artifactory URL
+      <input type="text" name="ARTIFACTORY_URL" placeholder="https://artifactory.example.com/artifactory" spellcheck="false" style="width:100%;box-sizing:border-box;padding:0.4rem 0.5rem;font-weight:400;">
     </label>
   </div>
-  <p class="workshop-vars__hint">Until a value is entered, its placeholder name (<code>PROXY_HOST</code>, <code>PROXY_PORT</code>, <code>ARTIFACTORY_URL</code>) stays in the commands. The Artifactory host name is derived from the URL.</p>
+  <p class="workshop-vars__hint" style="margin:0.5rem 0 0;font-size:0.85rem;">Until a value is entered, its placeholder name (<code>PROXY_HOST</code>, <code>PROXY_PORT</code>, <code>ARTIFACTORY_URL</code>) stays in the commands. The Artifactory host name is derived from the URL.</p>
 </form>
