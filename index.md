@@ -18,9 +18,15 @@ The repository tracks four fictional CSV seed files in `src/data/seed/`. Applica
 
 ## Illustrative architecture
 
-The following Java/Spring Boot diagram is an illustration of the longer-term architecture, including the later MCP concept. It does not depict a completed .NET path.
+The following diagrams illustrate the architecture for each backend, including the later MCP concept. Select the tab for your backend.
 
-![Java-oriented illustration of the longer-term application architecture]({{ '/media/Solution/app-highlevel-architecture.svg' | relative_url }})
+{% capture java %}
+![Java Spring Boot illustration of the longer-term application architecture]({{ '/media/Solution/app-highlevel-architecture-java.svg' | relative_url }})
+{% endcapture %}
+{% capture dotnet %}
+![ASP.NET Core illustration of the longer-term application architecture]({{ '/media/Solution/app-highlevel-architecture-dotnet.svg' | relative_url }})
+{% endcapture %}
+{% include stack-tabs.html id="architecture-diagrams" label="Application architecture diagram" java=java dotnet=dotnet %}
 
 - The React frontend sends REST requests to the selected Java Spring Boot or ASP.NET Core 10 backend.
 - The backend reads and writes fictional records in PostgreSQL.
